@@ -1,0 +1,110 @@
+@media (max-width: 600px) {
+    div.topnav {
+        font-size: 60px;
+        height: auto;
+        top: 0px;
+        width: 100vw;
+        /* border: red solid 2px; */
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    section.fyrpage {
+        /* border: red solid 2px; */
+        height: 99vh;
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+    .topnav h2 {
+        display: none;
+    }
+    .topnav h1 {
+        /* border: red solid 2px; */
+        position: relative;
+        font-size: 22px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    
+
+    .topnav div {
+        display: flex;
+        position: relative;
+        width: 70px;
+        height: 30px;
+        right: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 25px;
+        /* border: red solid 2px; */
+        cursor: pointer;
+    }
+    div span.fa-send:hover,
+    div span.fa-heart-o:hover{
+        background-color: rgba(115, 115, 119, 0);
+    }
+    
+
+    div.person {
+        margin: 0 5px 0 5px;
+    }
+
+    div.person p {
+        font-size: 10px;
+    }
+
+    h1 .fa-angle-down{
+        display: inline-block;
+        /* border: red solid 2px; */
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    h1 .dropdown-content {
+        border: rgba(70, 70, 70, 0.61) solid 1px;
+        display: none;
+        text-align: center;
+        position: absolute;
+        left: 0px;
+        top: auto;
+        height: auto;
+        padding: 10px;
+        width: 150px;
+        background-color: rgba(27, 27, 27, 0.877);
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);;
+        z-index: 2;
+    }
+    .dropdown-content a{
+        font-size: 20px;
+        display: block;
+        height: 36px;
+        font-size: 22px;
+        text-decoration: none;
+        /* border: red solid 2px; */
+    }
+
+    a.top-drop{
+        border-bottom: #a2a2a5 solid 2px;
+    }
+    .dropdown-content .top-drop:hover {
+        background-color: #737377;
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    .dropdown-content .bottom-drop:hover {
+        background-color: #737377;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+
+
+}

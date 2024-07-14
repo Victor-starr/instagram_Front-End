@@ -1,0 +1,74 @@
+@media (max-width: 600px){
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    span.icon,
+    div.topAside span p,
+    div.topAside span.fa-compass,
+    div.topAside span.fa-send,
+    div.topAside span.fa-heart-o,
+    div.bottomAside,
+    div.proflie p.aside-bar-name{
+        display: none;
+    }
+
+    aside span, div.proflie {
+        height: auto;
+        top: 5px;
+        /* border: red solid 1px; */
+    }
+    div.proflie:hover{
+        background-color: rgba(115, 115, 119, 0);
+    }
+    div.topAside span.fa{
+        font-size: 35px;
+    
+    }
+    aside {
+        position: fixed;
+        left: 0px;
+        bottom:0px;
+        top: auto;
+        border-top: rgb(75, 74, 74) solid 0.1px;;
+        background-color: rgb(0, 0, 0); 
+        display: block;
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    }
+    div.topAside{
+        /* background-color: rgb(0, 255, 34); */
+        position: relative;
+        top: 10px;
+    }
+    aside div.topAside{
+        display: flex;
+        /* border: rgb(0, 255, 34) solid 2px; */
+        width: 100vw;
+        
+    }
+    div.profile_icon img {
+        position: relative;
+        top: -7px;
+
+        height: 40px; 
+        width: auto; 
+        object-fit: contain;
+    }
+    
+    span.fa-play-circle-o{
+        order: 4;
+    }
+    span.fa-plus-square-o{
+        order: 3;
+    }
+    div.proflie{
+        display: block;
+        /* border: rgb(7, 7, 7) solid 2px; */
+        order: 5;
+        right: 0px;
+        width: 266px;
+    }
+
+    
+}

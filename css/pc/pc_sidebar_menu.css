@@ -1,0 +1,108 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'FontAwesome'; 
+    color: white;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+aside{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    /* border: red solid 2px;  */
+    height: 99vh;
+    width: 250px;
+    border-right: rgb(75, 74, 74) solid 0.1px;
+}
+span.icon img{
+    height: 50px;
+    /*border: red solid 2px;  */
+    width: 80%;
+    margin: 15px 0 15px 15px;
+    display: block;
+
+}
+aside div.topAside{
+    height:660px;
+    /* border: rgb(225, 0, 255) solid 2px; */
+}
+
+aside span.fa {
+display: block;
+position: relative;
+text-align: start;
+/* border: red solid 2px;  */
+border-radius: 8px;
+padding: 10px 0 10px 10px;
+width: 200px;
+left: 15px;
+font-size: 20px;
+line-height: 1px;
+}
+aside span.fa p {
+    display: inline-flex;
+    position: relative;
+}
+
+div.proflie{
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    /* border: red solid 2px;  */
+    border-radius: 8px;
+    width: 210px;
+    left: 15px;
+}
+div.proflie p{
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+div.profile_icon{
+    display: block;
+    height: 35px;
+    width: 35px;
+    /* border: red solid 2px;  */
+    border-radius: 50%;
+    margin: 0 0 0 10px;
+}
+div.profile_icon img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    
+}  
+
+div.bottomAside span{
+    display: block;
+    height: 50px;
+    width: 192px;
+    justify-content: space-around;
+    /* border: rgb(43, 255, 0) solid 2px; */
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 15px 0 0 20px;
+}
+.proflie:hover{
+    background-color: rgb(255, 255, 255, .1);
+}
+.fa:hover{
+    background-color: rgb(255, 255, 255, .1);
+}
+
+
+
+
+
+
+
+
+

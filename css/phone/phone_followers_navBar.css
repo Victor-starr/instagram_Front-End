@@ -1,0 +1,13 @@
+@media (max-width: 600px){
+div.follows{
+    gap: 8px;
+}
+
+section button.fa-arrow-left{
+    top: 20%;
+}
+section button.fa-arrow-right {
+    top: 20%;
+}
+
+}

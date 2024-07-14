@@ -1,0 +1,82 @@
+div.follows{
+    /* border: rgb(0, 183, 255) solid 5px; */
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 99%;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+div.person{
+    /* border: rgb(0, 255, 34) solid 2px; */
+    height: auto;
+    width: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 15px 0 15px;
+}
+span.icon_pfp{
+    height: 66px;
+    width: 66px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 50%;
+}
+div.person p{
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    /* border: red solid 2px; */
+    bottom: 0px;
+}
+span.icon_pfp img {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    height: 90%;
+    border-radius: 50%;
+}
+span.youraccount{
+    position: relative;
+}
+.youraccount span.fa-plus{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 9px;
+    height: 16px;
+    width: 16px;
+    border: white solid 2px;
+    border-radius: 50%;
+    background-color: #285AEB;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.fa-arrow-left,
+.fa-arrow-right {
+    position: absolute;
+    top: 157px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+.fa-arrow-left {
+    left: 0px;
+}
+
+.fa-arrow-right {
+    right: 0px;
+}

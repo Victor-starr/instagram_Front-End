@@ -1,0 +1,45 @@
+@media (max-width: 600px){
+    section.content{
+        padding-bottom: 20px;
+        height: 90vh;
+    }
+    div.profile_content_top_bar_video,
+    div.profile_content_top_bar_img{
+        position: relative;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        /* border: blue solid 2px; */
+        top: 50px
+    }
+    div.profile_content_top_bar_img{
+        top: 0px;
+    }
+    .content img{
+        border-radius: 0px;
+    }
+    div.proflie p{
+        font-size: 16px;
+    }
+    .profile_content_top_bar_video div.proflie,
+    .profile_content_top_bar_img div.proflie{
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        width: 50vw;
+        
+    }
+    .profile_content_top_bar_video div.fa-ellipsis-h,
+    .profile_content_top_bar_img div.fa-ellipsis-h{
+        position: absolute;
+        right: 20px;
+
+    }
+    div.icon_pfp img{
+        top: 2px;
+        left: 2px;
+    }
+    
+
+}
